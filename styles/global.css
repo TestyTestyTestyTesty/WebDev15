@@ -1,0 +1,57 @@
+header .navbar-default {
+  background-color: transparent;
+  border: none; }
+  header .navbar-default .navbar-nav > li > a {
+    color: #fff; }
+header .navbar-default .navbar-nav > .active > a, header .navbar-default .navbar-nav > .active > a:focus, header .navbar-default .navbar-nav > .active > a:hover {
+  color: #fff;
+  background: none; }
+header .navbar-right {
+  font-family: 'Dosis', sans-serif;
+  font-size: 16px;
+  text-transform: uppercase;
+  margin-right: -10rem;
+  margin-top: 1.5rem; }
+
+#home .container-fluid {
+  background-image: url(../images/slider-background.png);
+  background-size: cover;
+  height: 100vh;
+  width: 100vw; }
+
+.slider-blue {
+  position: fixed;
+  background-image: url(../images/slider-blue.png);
+  height: 100vh;
+  width: 50vw;
+  background-size: cover;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0; }
+
+.overlay {
+  position: fixed;
+  width: 50vw;
+  height: 100vh;
+  top: 0;
+  left: 50vw;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5); }
+
+.container {
+  z-index: 50; }
+
+h1 {
+  font-size: 90px; }
+
+h2 {
+  font-size: 50px; }
+
+h3 {
+  font-size: 30px; }
+
+.container-fluid {
+  padding: 0;
+  margin: 0; }

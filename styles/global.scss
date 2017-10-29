@@ -1,0 +1,19 @@
+@import "variables";
+@import "mixins";
+@import "responsive";
+@import "navbar";
+@import "slider";
+
+h1{
+    font-size: 90px;
+}
+h2{
+    font-size: 50px;
+}
+h3{
+    font-size: 30px;
+}
+.container-fluid{
+        padding: 0;
+        margin:0;
+}
